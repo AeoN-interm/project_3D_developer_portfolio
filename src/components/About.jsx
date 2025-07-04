@@ -65,7 +65,7 @@ const About = () => {
       {/* ✅ CV Link Button */}
       <div className="mt-6">
         <a
-  href="https://drive.google.com/file/d/1iND6bN2r3Kok4xSXMrrWwBd_Z2Y3mKL3/view?usp=sharing"
+  href="https://drive.google.com/file/d/1oBjkINlRJiyPTyqCxW6GBSV1Y5rKZZHY/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-block bg-blue-800 text-white px-6 py-2 rounded-md hover:bg-blue-500 transition"
