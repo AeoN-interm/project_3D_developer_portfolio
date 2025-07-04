@@ -42,23 +42,37 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
- <div>
+
+      <div>
         <img 
           src={logo} 
           alt="Logo" 
           className="w-32 h-32 object-right-top border" 
         />
       </div>
+
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Enthusiastic and detail-oriented Full-Stack Developer with strong expertise in the MERN stack (MongoDB, Express, React, Node.js) and hands-on experience
         in cloud deployment using AWS, Render, and Vercel. Proficient in building scalable web applications with clean, maintainable code. Strong knowledge of
-        Blockchain technology and OpenAI integration. Committed to continuous learning and staying up to date with the latest technologies.I'm a quick learner and collaborate closely with clients to
+        Blockchain technology and OpenAI integration. Committed to continuous learning and staying up to date with the latest technologies. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+
+      {/* ✅ CV Link Button */}
+      <div className="mt-6">
+        <a
+  href="https://drive.google.com/file/d/1iND6bN2r3Kok4xSXMrrWwBd_Z2Y3mKL3/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-blue-800 text-white px-6 py-2 rounded-md hover:bg-blue-500 transition"
+>
+  View My CV
+</a>
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

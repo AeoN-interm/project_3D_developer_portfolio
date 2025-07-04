@@ -40,12 +40,12 @@ const Contact = () => {
 
         <div className='mt-12 flex flex-col gap-6'>
           <div>
-            <span className='text-white font-medium'>Email :</span>
+            <span className='text-white font-medium'>Email Id</span>
             <p className='text-secondary'>biswassaikatt@gmail.com</p>
           </div>
 
           <div>
-            <span className='text-white font-medium'>Mobile & WhatsApp Number :</span>
+            <span className='text-white font-medium'>Mobile & WhatsApp Number </span>
             <p className='text-secondary'>+91 9851208616</p>
           </div>
 

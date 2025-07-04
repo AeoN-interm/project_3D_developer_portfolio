@@ -33,8 +33,12 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
+  },
+    {
+    id: "tech",
+    title: "Tech",
   },
   {
     id: "contact",
@@ -48,7 +52,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -204,9 +208,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Cyber Goals",
+     description:
+      "Full-stack To-Do app. Integrated OpenAI API for AI-powered task recommendations. Deployed on Render Features: task tracking, goal management. LIVE LINK- https://cyber-goals-0001.onrender.com/",
     tags: [
       {
         name: "react",
@@ -217,54 +221,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AeoN-interm/Cyber-Goals",
   },
   {
-    name: "Job IT",
+    name: "SaveZon",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web applicationDeveloped a shopping app with. Integrated Blockchain using Web3.js and Smart Contracts. Features: product sorting, theme change, wish list, add-to-cart. LIVE LINK- https://savezon.vercel.app/",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "web3",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AeoN-interm/Savezon",
   },
   {
-    name: "Trip Guide",
+    name: "Text-me",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Full-stack chatting app for Real time communication,Deployed on Render. Features: group chats, authentication, add friends. LIVE LINK- https://text-me-7nvk.onrender.com/",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Socket.IO",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AeoN-interm/Text-Me",
   },
 ];
 
